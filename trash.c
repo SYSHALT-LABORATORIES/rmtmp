@@ -50,7 +50,7 @@ void mv_from_trash(const char *home, const char *who, const char *fpath3) {
 	snprintf(trash_file, sizeof(trash_file), "%s/.local/share/Trash/files/%s", home, who);
 
 	char target_file[1024];
-	snprint(target_file, sizeof(target_file), "%s/%s", fpath3, who);
+	snprintf(target_file, sizeof(target_file), "%s/%s", fpath3, who);
 	
 	FILE *src = fopen(trash_file, "rb");
 	if (!src) {
@@ -134,7 +134,7 @@ int main(int argc, char *argv[]) {
     }
 
     if (restore_path && restore_who) {
-	mv_from_trash(restore_path, restore_who);
+	mv_from_trash(home, restore_who, restore_path);
     }
 
     return 0;
