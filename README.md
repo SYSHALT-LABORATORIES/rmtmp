@@ -2,5 +2,6 @@
 
 ***
 
-Build requirements:
-	[] gcc
+## Build requirements:
+- gcc
+- build-essential
