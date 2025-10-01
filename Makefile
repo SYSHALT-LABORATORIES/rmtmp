@@ -10,4 +10,6 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -c $< -o $@
 clean:
 	rm -f $(OBJS) $(TARGET)
+check:
+	@echo "No tests implemented yet."
 .PHONY: all clean
