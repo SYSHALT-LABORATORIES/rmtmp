@@ -1,7 +1,7 @@
 Source: rmtmp
 Section: utils
 Priority: optional
-Mantainer: João Vítor <l68608334@gmail.com>
+Maintainer: João Vítor <l68608334@gmail.com>
 Build-Depends: gcc, make
 Standards-Version: 4.5.0
 Homepage: https://github.com/SYSHALT-LABORATORIES/rmtmp
