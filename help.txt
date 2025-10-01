@@ -1,0 +1,7 @@
+-+== USAGE  ==+-
+--restore_path > path argument for restore file to
+--remove       > remove file (temporarily, of course)
+--who          > to restore who?
+
+examples: rmtmp --restore_path="~/Documents/" --who document.txt
+	  rmtmp --remove document.txt
