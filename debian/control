@@ -1,0 +1,13 @@
+Source: rmtmp
+Section: utils
+Priority: optional
+Mantainer: João Vítor <l68608334@gmail.com>
+Build-Depends: gcc, make
+Standards-Version: 4.5.0
+Homepage: https://github.com/SYSHALT-LABORATORIES/rmtmp
+
+Package: rmtmp
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CLI utility to move files to trash and restore (FreeDesktop Trash Spec)
+
