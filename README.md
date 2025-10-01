@@ -5,3 +5,4 @@
 ## Build requirements:
 - gcc
 - build-essential
+- make (if you want to build using it)
